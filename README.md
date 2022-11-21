@@ -4,6 +4,10 @@
 
 FOCAL in this context stands for Functions, Objects, Conditionals, Arrays, and Loops, the core concepts of programming. 
 
+## Functions
+
+
+
 ### Methods
 
 * [arrays](/focal/arrays)
@@ -29,4 +33,19 @@ FOCAL in this context stands for Functions, Objects, Conditionals, Arrays, and L
   * .replace
 
   * .strip
+
+
+## Objects
+
+
+
+## Conditionals
+
+
+
+## Arrays
+
+
+
+## Loops
 
