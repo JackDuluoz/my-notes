@@ -43,7 +43,7 @@ const basket = [
 basket.sort((a, b) => a.price - b.price)
 console.log(basket)
 
-//Sort Alphabetically 9in this case, by item name)
+//Sort Alphabetically (in this case, by item name)
 basket.sort((a, b) => {
   const itemA = a.item
   const itemB = b.item
