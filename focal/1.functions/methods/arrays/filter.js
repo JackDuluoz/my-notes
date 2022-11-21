@@ -17,6 +17,7 @@ const animals = [
   const noDogs = animals.filter((animal) => animal.species !== 'dog')
   
 //Function Expressions
+//As a function expression, .filter would work likes this.
 
   // const dogs = animals.filter(function (animal) {
   //   return animal.species === 'dog'
@@ -26,7 +27,9 @@ const animals = [
   //   return animal.species !== 'dog'
   // })
 
-  //For Loop
+//For Loop
+//This code could also be written without using functions; below, the same
+//result is achieved using a for ... of loop. The code is much longer.
 
 // let allDogs = []
 // for (let animal of animals) {
@@ -43,6 +46,7 @@ const animals = [
 // } 
 
 // Indexed For Loop
+//Finally, an older indexed for loop could be used as follows. (Even longer.)
 
 // let allDogs = []
 // for (let animal = 0; animal < animals.length; animal++) {
@@ -58,6 +62,8 @@ const animals = [
 //   }
 // } 
 
+//These console logs demonstrate the result. Uncomment the last two to confirm
+//that the for loops produce the same results as the .filter functions.
 console.log(dogs)
 console.log('')
 console.log(noDogs)

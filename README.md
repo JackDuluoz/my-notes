@@ -1,32 +1,36 @@
 # My Notes
 
-## FOCAL
+## [FOCAL](/focal)
 
 FOCAL in this context stands for Functions, Objects, Conditionals, Arrays, and Loops, the core concepts of programming. 
 
-## Functions
+## [Functions](/focal/1.functions)
 
+  * [Function Declaration](/focal/1.functions/function-declaration.js)
 
+  * [Function Expression](/focal/1.functions/function-expression.js)
 
-### Methods
+  * [Arrow Functions](/focal/1.functions/arrow-functions.js)
 
-* [arrays](/focal/arrays)
+### [As Methods](/focal/1.functions/methods)
 
-  * [.filter](/focal/arrays/filter.js)
+* [Arrays](/focal/1.functions/methods/arrays)
 
-  * [.find](/focal/arrays/find.js)
+  * [.filter](/focal/1.functions/methods/arrays/filter.js)
 
-  * [.map](/focal/arrays/map.js)
+  * [.find](/focal/1.functions/methods/arrays/find.js)
+
+  * [.map](/focal/1.functions/methods/arrays/map.js)
 
   * .push
 
-  * [.reduce](/focal/arrays/reduce1.js)
+  * [.reduce](/focal/1.functions/methods/arrays/reduce1.js)
 
   * .slice
 
   * .splice
 
-* [strings](/focal/strings)
+* [Strings](/focal/1.functions/methods/strings)
 
   * .join
 
@@ -35,17 +39,17 @@ FOCAL in this context stands for Functions, Objects, Conditionals, Arrays, and L
   * .strip
 
 
-## Objects
+## [Objects](focal/2.objects)
 
 
 
-## Conditionals
+## [Conditionals](/focal/3.conditionals)
 
 
 
-## Arrays
+## [Arrays](/focal/4.arrays)
 
 
 
-## Loops
+## [Loops](/focal/5.loops)
 
