@@ -36,7 +36,7 @@ FOCAL in this context stands for Functions, Objects, Conditionals, Arrays, and L
 
   * .replace
 
-  * .strip
+  * .split
 
 
 ## [Objects](focal/2.objects)
