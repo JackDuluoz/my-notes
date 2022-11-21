@@ -9,6 +9,8 @@ const animals = [
 ]
 
 //Arrow Functions
+//This section shows .filter at work as an arrow function with one parameter
+//and an intrinsic return.
 
   const dogs = animals.filter((animal) => animal.species === 'dog')
 
