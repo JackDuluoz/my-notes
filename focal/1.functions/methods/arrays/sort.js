@@ -27,8 +27,8 @@ console.log(numbers)
 //.sort can also be called with parameters. Foe example:
 
 const basket = [
-  { item: "headphones",     price: 60 },
-  { item: "motherboard",    price: 200 },
+  { item: "headphones",     price: 61 },
+  { item: "motherboard",    price: 600 },
   { item: "ram",            price: 45 },
   { item: "compressed air", price: 8 },
   { item: "thermal paste",  price: 5 }
@@ -38,4 +38,21 @@ const basket = [
 
 //Arrow Function
 
-basket.sort
+//Sort by Value
+//Note: this time, 61 appears before 600.
+basket.sort((a, b) => a.price - b.price)
+console.log(basket)
+
+//Sort Alphabetically 9in this case, by item name)
+basket.sort((a, b) => {
+  const itemA = a.item
+  const itemB = b.item
+  if (itemA < itemB) {
+    return -1
+  }
+  if (itemA < itemB) {
+    return 1
+  }
+  return 0
+})
+console.log(basket)
