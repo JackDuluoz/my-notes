@@ -28,6 +28,8 @@ FOCAL in this context stands for Functions, Objects, Conditionals, Arrays, and L
 
   * .slice
 
+  * [.sort](/focal/1.functions/methods/arrays/sort.js)
+
   * .splice
 
 * [Strings](/focal/1.functions/methods/strings)
